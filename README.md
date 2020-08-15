@@ -2,8 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## About
 
-React Colors is a color palette selector. Users can..
-
+React Colors is a color palette selector. Users can pick a color from a variety of predefined palettes, manipulate the
 Demo for this project available at: <DEMO LINK HERE>
 
 ## Technologies Utilized
