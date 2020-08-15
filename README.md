@@ -4,8 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 React Colors is a color palette selector. Users can..
 
-## Demo
-
 Demo for this project available at: <DEMO LINK HERE>
 
 ## Technologies Utilized
@@ -14,8 +12,6 @@ Demo for this project available at: <DEMO LINK HERE>
 - React.js
 - HTML/CSS
 - JSS
-
-## Dependencies
 
 ## Available Scripts
 
@@ -28,3 +24,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+## Dependencies
