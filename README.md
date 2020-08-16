@@ -1,8 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## About
 
-React Colors is a color palette selector. Users can pick a color from a variety of predefined palettes, manipulate the
+React Colors is a color palette selector. Users can pick a color from a variety of predefined palettes, manipulate the shade, and copy the HEX/RGB/RGBA code of the selected color to their clipboard. Users can also create and delete their own custom color palettes.
+
 Demo for this project available at: <DEMO LINK HERE>
 
 ## Technologies Utilized
