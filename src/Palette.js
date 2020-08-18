@@ -4,19 +4,8 @@ import { generatePalette } from "./colorHelpers";
 import "rc-slider/assets/index.css";
 import PaletteFooter from "./PaletteFooter";
 import { withStyles } from "@material-ui/styles";
-import "./Palette.css";
+import styles from "./styles/PaletteStyles";
 import Navbar from "./Navbar";
-
-const styles = {
-  Palette: {
-    height: "100vh",
-    display: "flex",
-    flexDirection: "column",
-  },
-  colors: {
-    height: "90%",
-  },
-};
 
 class Palette extends Component {
   constructor(props) {
