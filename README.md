@@ -2,12 +2,13 @@
 
 React Colors is a color palette/selector. Users can pick a color from a variety of predefined palettes, manipulate the shade, and copy the HEX/RGB/RGBA code of the selected color to their clipboard. Users can also create and delete their own custom color palettes (coming soon!).
 
-## Technologies Utilized
+## Technologies, Tools, and Frameworks Utilized
 
 - JavaScript
 - React.js
 - HTML/CSS
 - JSS
+- Material-UI
 
 ## Available Scripts
 
@@ -32,7 +33,10 @@ You will also see any lint errors in the console.
     "chroma-js": "^2.1.0",
     "rc-slider": "^9.3.1",
     "react": "^16.13.1",
+    "react-color": "^2.18.1",
     "react-copy-to-clipboard": "^5.0.2",
     "react-dom": "^16.13.1",
+    "react-material-ui-form-validator": "^2.1.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^3.4.1",
+    "react-sortable-hoc": "^1.11.0"
