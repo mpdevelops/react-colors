@@ -4,7 +4,7 @@ import { generatePalette } from "./colorHelpers";
 import "rc-slider/assets/index.css";
 import PaletteFooter from "./PaletteFooter";
 import { withStyles } from "@material-ui/styles";
-import styles from "./styles/PaletteStyles";
+import styles from "../styles/PaletteStyles";
 import Navbar from "./Navbar";
 
 class Palette extends Component {
