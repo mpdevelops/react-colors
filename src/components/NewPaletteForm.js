@@ -11,7 +11,9 @@ import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import Button from "@material-ui/core/Button";
 import DraggableColorList from "./DraggableColorList";
 import { arrayMove } from "react-sortable-hoc";
+
 const drawerWidth = 400;
+
 const styles = (theme) => ({
   root: {
     display: "flex",
@@ -68,6 +70,7 @@ const styles = (theme) => ({
     width: "50%",
   },
 });
+
 class NewPaletteForm extends Component {
   static defaultProps = {
     maxColors: 20,
@@ -85,12 +88,15 @@ class NewPaletteForm extends Component {
     this.clearColors = this.clearColors.bind(this);
     this.addRandomColor = this.addRandomColor.bind(this);
   }
+
   handleDrawerOpen = () => {
     this.setState({ open: true });
   };
+
   handleDrawerClose = () => {
     this.setState({ open: false });
   };
+
   addNewColor(newColor) {
     this.setState({
       colors: [...this.state.colors, newColor],
@@ -112,12 +118,9 @@ class NewPaletteForm extends Component {
     const randomColor = allColors[rand];
     this.setState({ colors: [...this.state.colors, randomColor] });
   }
-  handleSubmit(newPaletteName) {
-    const newPalette = {
-      paletteName: newPaletteName,
-      id: newPaletteName.toLowerCase().replace(/ /g, "-"),
-      colors: this.state.colors,
-    };
+  handleSubmit(newPalette) {
+    newPalette.id = newPalette.paletteName.toLowerCase().replace(/ /g, "-");
+    newPalette.colors = this.state.colors;
     this.props.savePalette(newPalette);
     this.props.history.push("/");
   }
@@ -131,10 +134,12 @@ class NewPaletteForm extends Component {
       colors: arrayMove(colors, oldIndex, newIndex),
     }));
   };
+
   render() {
     const { classes, maxColors, palettes } = this.props;
     const { open, colors } = this.state;
     const paletteIsFull = colors.length >= maxColors;
+
     return (
       <div className={classes.root}>
         <PaletteFormNav
