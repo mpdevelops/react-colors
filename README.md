@@ -6,7 +6,6 @@ React Colors is a color palette/selector. Users can pick a color from a variety 
 
 - Styling tweaks
 - Refactoring
-- Sync to Local Storage
 - More styling tweaks
 - Comments
 
