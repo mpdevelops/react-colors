@@ -1,6 +1,6 @@
 ## About
 
-React Colors is a color palette/selector. Users can pick a color from a variety of predefined palettes, manipulate the shade, and copy the HEX/RGB/RGBA code of the selected color to their clipboard. Users can also create and delete their own custom color palettes.
+React Colors is a color palette/selector. Users can pick a color from a variety of predefined palettes, manipulate the shade, and copy the HEX/RGB/RGBA code of the selected color to their clipboard. Users can also create and delete their own custom color palettes. Drag and drop functionality used for rearranging colors in custom palettes.
 
 ## TODO
 
@@ -35,10 +35,8 @@ You will also see any lint errors in the console.
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/styles": "^4.10.0",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
     "chroma-js": "^2.1.0",
+    "emoji-mart": "^3.0.0",
     "rc-slider": "^9.3.1",
     "react": "^16.13.1",
     "react-color": "^2.18.1",
