@@ -2,13 +2,6 @@
 
 React Colors is a color palette/selector. Users can pick a color from a variety of predefined palettes, manipulate the shade, and copy the HEX/RGB/RGBA code of the selected color to their clipboard. Users can also create and delete their own custom color palettes. Drag and drop functionality used for rearranging colors in custom palettes.
 
-## TODO
-
-- Styling tweaks
-- Refactoring
-- More styling tweaks
-- Comments
-
 ## Technologies, Tools, and Frameworks Utilized
 
 - JavaScript
