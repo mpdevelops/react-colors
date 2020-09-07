@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ColorBox from "./ColorBox";
-import { generatePalette } from "./colorHelpers";
 import "rc-slider/assets/index.css";
 import PaletteFooter from "./PaletteFooter";
 import { withStyles } from "@material-ui/styles";
