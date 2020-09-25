@@ -13,9 +13,13 @@ React Colors is a color palette/selector. Users can pick a color from a variety 
 - JSS
 - Material-UI
 
-## Available Scripts
+## Run Project Locally
 
 In the project directory, you can run:
+
+### `npm install`
+
+Downloads necessary node modules
 
 ### `npm start`
 
@@ -24,25 +28,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
-
-## Dependencies
-
-    "@material-ui/core": "^4.11.0",
-    "@material-ui/icons": "^4.9.1",
-    "@material-ui/styles": "^4.10.0",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "chroma-js": "^2.1.0",
-    "emoji-mart": "^3.0.0",
-    "rc-slider": "^9.3.1",
-    "react": "^16.13.1",
-    "react-color": "^2.18.1",
-    "react-copy-to-clipboard": "^5.0.2",
-    "react-dom": "^16.13.1",
-    "react-material-ui-form-validator": "^2.1.1",
-    "react-router-dom": "^5.2.0",
-    "react-router-transition": "^2.0.0",
-    "react-scripts": "^3.4.1",
-    "react-sortable-hoc": "^1.11.0",
-    "react-transition-group": "^4.4.1"
