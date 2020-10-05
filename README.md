@@ -4,6 +4,8 @@ React Colors is a color palette/selector. Users can pick a color from a variety 
 
 Demo available at: https://react-colors-demo.herokuapp.com
 
+Please note: This app is not intended to be viewed on mobile.
+
 <img src="https://github.com/mpdevelops/misc/blob/master/Screen%20Shot%202020-09-07%20at%2012.35.19%20AM.png?raw=true" width="750"/>
 
 ## Technologies, Tools, and Frameworks Utilized
