@@ -8,15 +8,6 @@ Demo available at: https://react-colors-demo.herokuapp.com
 
 <img src="https://github.com/mpdevelops/misc/blob/master/Screen%20Shot%202020-09-07%20at%2012.35.19%20AM.png?raw=true" width="750"/>
 
-## Technologies, Tools, and Frameworks Utilized
-
-- JavaScript
-- React.js
-- HTML/CSS
-- Node.js
-- JSS
-- Material-UI
-
 ## Run Project Locally
 
 In the project directory, you can run:
